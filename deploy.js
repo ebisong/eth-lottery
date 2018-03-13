@@ -3,8 +3,8 @@ const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
-  'neglect organ vehicle reduce nuclear story coffee emotion quarter blush abandon mesh',
-  'https://rinkeby.infura.io/KVivJlnBkj6vg9JeA0Py'
+  '', // 12 recovery words
+  '' // infura link
 );
 
 const web3 = new Web3(provider);
